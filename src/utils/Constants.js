@@ -4,5 +4,5 @@ export const reducerCases = {
     SET_ARTIST: "SET_ARTIST",
     SET_TRACKS: "SET_TRACKS",
     SET_TOPARTISTS: "SET_TOPARTISTS",
-    SET_TOPTRACKS: "SET_TOPTRACKS",
+    SET_TOPTRACKS: "SET_TOPTRACKS", // use this
 }

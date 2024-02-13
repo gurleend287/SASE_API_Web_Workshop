@@ -5,7 +5,7 @@ export const initialState = {
     userInfo: null,
     artist: null,
     tracks: [],
-    topTracks: [],
+    topTracks: [], // use this
     topArtists: [],
 }
 
@@ -41,6 +41,7 @@ const reducer = (state, action) => {
                 topArtists: action.topArtists,
             }
         }
+        // use this
         case reducerCases.SET_TOPTRACKS: {
             return {
                 ...state,
